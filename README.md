@@ -25,9 +25,12 @@ This command returns credentials that GitHub Token. Also, that response contains
 
 ## Install
 
-Download latest version from [Releases](https://github.com/mackee/git-credential-github-apps/releases).
+Download latest version from [Releases][RELEASES].
 
 Extract into a directory that written in your PATH environment variable.
+
+[RELEASES]: https://github.com/Avinode/git-credential-github-apps/releases
+
 
 ## Usage
 
