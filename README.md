@@ -1,6 +1,19 @@
 # git-credential-github-apps
 
-A git credential helper with GitHub Apps
+A git credential helper with GitHub Apps.
+
+> This is a fork of [mackee/git-credential-github-apps][OR] which was created
+> by [@mackee][MACKEE]. It has merged pull requests provided by
+> [@tchssk][TCHSSK], [@tgoodsell-tempus][TGOODSELL-TEMPUS], and
+> [@avijoenil][AVIJOENIL].  These include updates addressing the
+> *CVE-2022-39304* and *CVE-2020-26160* security vulnrabilities.
+
+[AVIJOENIL]: https://github.com/avijoenil
+[MACKEE]: https://github.com/mackee
+[OR]: https://github.com/mackee/git-credential-github-apps
+[TCHSSK]: https://github.com/tchssk
+[TGOODSELL-TEMPUS]: https://github.com/tgoodsell-tempus
+
 
 ## Overview
 
