@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/bradleyfalzon/ghinstallation/v2"
-	"github.com/google/go-github/v28/github"
+	"github.com/google/go-github/v68/github"
 )
 
 // Auther provides API Token with authentication on GitHub Apps.
@@ -50,7 +50,7 @@ func (a *auther) FetchToken(ctx context.Context) (string, error) {
 	}
 
 	if a.store != nil {
-		err := a.store.Save(t.GetToken(), t.GetExpiresAt())
+		err := a.store.Save(t.GetToken(), t.GetExpiresAt().Time)
 		if err != nil {
 			return "", err
 		}
